@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* background-color: #FFA69E!important; */
 }
 
 .App-logo {
@@ -35,4 +36,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+.display{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+#root{
+  background-color:#C8E0F4!important;
+}
+.back{
+  background-color: #E2FDFF;
 }
